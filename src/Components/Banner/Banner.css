@@ -4,4 +4,29 @@
         height: 100vh;
         z-index: 10;
         background: #fff;
+        background-image: url('./wolf.png');
+        background-size: 30%;
+        background-position-x: 67%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.cards{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        height: auto;
+        display: flex;
+        flex-direction: row;
+}
+.cards div{
+        margin-left: 10%
+}
+.backg{
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        background: #222;
 }
