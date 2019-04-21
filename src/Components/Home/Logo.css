@@ -1,0 +1,26 @@
+.Logo{
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    width: 13vw;
+    height: 0.57vw;
+    border-radius: 0.295vw;
+    background-color: #f9c34c;
+    transform: rotate(50deg);
+    position: relative;
+    left: 7vw;
+    top: 4.2vw;
+}
+.facts{
+    font-size: 2vw;
+    line-height: 2.7vw;
+}
+.span1{
+    margin-left: 2vw;
+}
+.span2{
+    margin-left:5vw;
+}

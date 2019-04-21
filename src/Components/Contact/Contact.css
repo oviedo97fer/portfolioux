@@ -1,5 +1,5 @@
 .Contact{
-    position: absolute;
+    position: relative;
     top: 10vh;
 }
 .Contact a{
@@ -7,7 +7,7 @@
     font-size: 1.6vw;
     font-family: 'Montserrat';
     font-weight: 100;
-    padding: 0.2vw 2vw;   
+    padding: 0.4vw 3vw;   
     text-align: center;
     border: 1px solid #333;
     text-decoration: none;
