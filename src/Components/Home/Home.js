@@ -2,20 +2,16 @@ import React, {Component} from 'react';
 import './Home.css';
 import fernando from './fernando.png';
 import raton from './raton.gif';
-import menu from './menu.png';
+
 //Components
 import Contact from '../Contact/Contact';
 import Logo from './Logo';
 
 
 class Home extends Component{
-
     render(){
         return(
             <div className='Home'>
-                  <div className='menu-icon'>
-                    <img alt='menu' src={menu}></img>
-                  </div>
                   <div className='Title'>
                     <h1>Fernando<br></br>Oviedo</h1>
                     <h4>2019</h4>
