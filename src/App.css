@@ -1,3 +1,7 @@
+.App{
+    display: flex;
+    flex-direction: column;
+}
 .menu-icon{
     position: fixed;
     left: 2vw;

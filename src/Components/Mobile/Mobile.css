@@ -1,0 +1,13 @@
+.Mobile{
+    width:100%;
+    height: 100vh;
+    background: #fff;
+    position: relative;
+}
+.wrap-div{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 10%;
+    background: #222;
+}

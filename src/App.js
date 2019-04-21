@@ -4,6 +4,8 @@ import './App.css';
 import Home from './Components/Home/Home';
 import Banner from './Components/Banner/Banner';
 import Menu from './Components/Menu/Menu';
+import Mobile from './Components/Mobile/Mobile';
+
 import menu from './menu.png';
 
 class App extends Component {
@@ -37,8 +39,9 @@ class App extends Component {
           <img alt='menu' src={menu}></img>
         </div>
         {displayMenu && <Menu/>}
-        <Home/>
-        <Banner/>
+        <div><Home/></div>
+        <div><Banner/></div>
+        <div><Mobile/></div>
       </div>
     );
   }
