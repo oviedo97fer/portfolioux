@@ -3,7 +3,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
-}
+ }
 .line{
     width: 13vw;
     height: 0.57vw;
@@ -24,3 +24,4 @@
 .span2{
     margin-left:5vw;
 }
+

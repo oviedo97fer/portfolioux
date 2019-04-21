@@ -5,6 +5,9 @@
     height: 100vh;
     z-index: 1000;
     background: #fff;
+    
+     -webkit-animation: slide-right 0.8s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+     animation: slide-right 0.8s cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
 }
 
 .Menu img{
@@ -17,7 +20,8 @@
 .Menu ul{
     position: relative;
     top: 40%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    list-style: none;
 }
 .Menu ul li{
     margin-top: 5vw;
@@ -29,3 +33,26 @@
     font-size: 3vw;
     left: 5vw;
 }
+
+
+/* Keyframes */
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-80%);
+              transform: translateX(-80%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-80%);
+              transform: translateX(-80%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+  }

@@ -15,15 +15,17 @@ class App extends Component {
     this.showMenu = this.showMenu.bind(this);
     this.hideMenu = this.hideMenu.bind(this);
   }
-  showMenu(e){
+  showMenu(){
    this.setState({ displayMenu: true });
-   document.addEventListener('click', this.hideMenu);
-   document.removeEventListener('click', this.showMenu);
+   document.getElementById('menu').removeEventListener('click', this.showMenu);
+   
+   document.getElementById('menu').addEventListener('click', this.hideMenu);
   }
-  hideMenu(e){
+  hideMenu(){
     this.setState({displayMenu: false})
-    document.removeEventListener('click', this.hideMenu);
-    document.addEventListener('click', this.showMenu);
+    document.getElementById('menu').removeEventListener('click', this.hideMenu);
+    document.getElementById('menu').addEventListener('click', this.showMenu);
+    
   }
   render() {
     const { displayMenu } = this.state;
@@ -31,7 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         {/*menu btn*/}
-        <div className='menu-icon' onClick={this.showMenu}>
+        <div className='menu-icon' id='menu' onClick={this.showMenu}>
           <img alt='menu' src={menu}></img>
         </div>
         {displayMenu && <Menu/>}
