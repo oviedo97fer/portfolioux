@@ -6,8 +6,11 @@
 }
 .wrap-div{
     width: 100%;
-    height: 20vh;
+    height: 40vh;
     position: absolute;
-    top: 10%;
+    top: -15vh;
     background: #222;
+    transform:skew(0deg,7deg);
+    -ms-transform:skew(0deg,7deg);
+    -webkit-transform:skew(0deg,7deg); 
 }
