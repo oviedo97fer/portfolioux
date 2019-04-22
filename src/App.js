@@ -7,8 +7,10 @@ import Menu from './Components/Menu/Menu';
 import Mobile from './Components/Mobile/Mobile';
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
+import Footer from './Components/Footer/Footer';
 
 import menu from './menu.png';
+
 
 class App extends Component {
   constructor(){
@@ -46,6 +48,7 @@ class App extends Component {
         <div><Mobile/></div>
         <div><Skills/> </div>
         <div><Projects/> </div>
+        <div><Footer/> </div>
       </div>
     );
   }
