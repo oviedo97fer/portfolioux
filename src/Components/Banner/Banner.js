@@ -15,7 +15,7 @@ class Banner extends Component{
                  <div className='cards'>
                  <Card
                   title='WEB DESIGN'
-                  subtitle='style. beauty.'
+                  subtitle='modern. beauty.'
                   />
                   <Card
                   title='MOBILE DESIGN'

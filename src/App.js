@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Banner from './Components/Banner/Banner';
 import Menu from './Components/Menu/Menu';
 import Mobile from './Components/Mobile/Mobile';
+import Skills from './Components/Skills/Skills';
 
 import menu from './menu.png';
 
@@ -42,6 +43,7 @@ class App extends Component {
         <div><Home/></div>
         <div><Banner/></div>
         <div><Mobile/></div>
+        <div><Skills/> </div>
       </div>
     );
   }
