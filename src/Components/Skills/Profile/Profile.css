@@ -19,7 +19,7 @@
 .profile h1{
     position: absolute;
     bottom:42%;
-    left:31%;
+    left:33%;
     font-size: 2.2vw;
     text-align: center;
 }
@@ -27,11 +27,20 @@
 .profile p{
     font-family: 'Lato';
     font-weight: 100;
+    font-size: 1.5vw;
     text-align: center;
-    width: 60%;
+    width: 70%;
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
 }
 .profile p span{
     font-family: 'Lato';
     font-weight: 100;
     color: #f9c34c;
+}
+.contact-profile{
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
 }
