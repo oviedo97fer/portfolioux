@@ -1,0 +1,35 @@
+.ProjectsComponent{
+    position: relative;
+}
+.ProjectsComponent h1{
+  width: 30%;
+  position: relative;
+  font-size: 2.6vw;
+  letter-spacing: 4px;
+  left: 40%;
+}
+.ProjectsComponent img{
+  width: 45%;
+  position: relative;
+  left: 24.5%;
+}
+.View-btn{
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    cursor: pointer;
+}
+.View-btn a{
+    text-decoration: none;
+    color: #111;
+    font-weight: 100;
+    font-size: 1.6vw;
+    font-family: 'Montserrat';
+    padding: 0.4vw 6vw;   
+    text-align: center;
+    border: 1px solid #333;
+    text-decoration: none;
+}
+.View-btn a:hover{
+    background: rgba(0,0,0,.1)
+}
